@@ -1,0 +1,87 @@
+body {
+  background-color: azure;
+  font-family: 'Open Sans', sans-serif;
+
+  color: #252B48;
+  font-size: larger;
+  line-height: 15px;
+}
+
+@media (max-width: 2080px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+h2, h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  line-height: 15px;
+  font-weight: bolder;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 35;
+  line-height: 50px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: double;
+  color: #445069;
+}
+a:hover {
+  text-decoration: none;
+  color: #F7E987;
+}
+
+#img-circle{
+  border-radius: 50%;
+}
+
+/* .container {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+} */
+
+.card {
+  margin: 30px;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #5B9A8B;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
